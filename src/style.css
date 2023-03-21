@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img,
+.img {
+  width: 120px;
+  height: 150px;
+  margin: auto 0;
+}
+
+tr {
+  border-bottom: 1px solid gray;
+  border-radius: 8px;
+  height: 200px;
+  align-items: center;
+}
+
+td {
+  width: 15%;
+}
+
+td div,
+.btn {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+span:first-child {
+  font-weight: bolder;
+}
+
+.btn {
+  width: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+}
